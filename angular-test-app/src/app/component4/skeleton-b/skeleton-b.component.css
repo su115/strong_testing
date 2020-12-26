@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#mainContainer{
+  font-family: "Arial";
+  font-size: 1rem;
+  line-height: 1.5;
+  background-color: grey;
+  color: #333;
+}
+header{
+  background-color: pink;
+  padding: 1rem;
+}
+main{
+  background-color: yellow;
+}
+.News{
+  background-color: yellowgreen;
+}

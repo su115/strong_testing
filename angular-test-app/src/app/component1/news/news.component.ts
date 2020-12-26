@@ -11,7 +11,7 @@ import {NEWSLIST} from "../../NEWSMOCKS";
   styleUrls: ['./news.component.css']
 })
 export class NewsComponent implements OnInit {
-  news:NEWS=NEWSLIST;
+  news=NEWSLIST;
   constructor() { }
 
   ngOnInit(): void {
