@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 //COMPONENTS START
 import { FooterComponent } from "../footer/footer.component";
-import { BackgroundNewsComponent } from "../background-news/background-news.component";
+//import { BackgroundNewsComponent } from "../background-news/background-news.component";
 import { MenuComponent } from "../menu/menu.component";
 import {HeaderComponent} from "../header/header.component";
 import {NewsComponent}from "../news/news.component";
