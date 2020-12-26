@@ -1,8 +1,13 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import {MainPageComponent} from "./components/main-page/main-page.component";
+import {MainPageComponent} from "./component1/main-page/main-page.component";
+import {SkeletonComponent} from "./component2/skeleton/skeleton.component";
+import {SkeletonAComponent} from "./component3/skeleton-a/skeleton-a.component";
 const routes: Routes = [
-  {path:"main",component:MainPageComponent},];
+  {path:"main1",component:MainPageComponent},
+  {path:"main2",component:SkeletonComponent},
+  {path:"main3",component:SkeletonAComponent},
+  ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
