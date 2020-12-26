@@ -9,7 +9,8 @@ import { NewsDayComponent } from './components/news-day/news-day.component';
 import { NewsComponent } from './components/news/news.component';
 import { TematicsComponent } from './components/tematics/tematics.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { BackgroundNewsComponent } from './components/background-news/background-news.component';
+//import { BackgroundNewsComponent } from './components/background-news/background-news.component';
+import { MainPageComponent } from './components/main-page/main-page.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { BackgroundNewsComponent } from './components/background-news/background
     NewsComponent,
     TematicsComponent,
     FooterComponent,
-    BackgroundNewsComponent
+    //BackgroundNewsComponent,
+    MainPageComponent
   ],
   imports: [
     BrowserModule,

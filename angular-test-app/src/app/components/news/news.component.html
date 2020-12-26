@@ -1,4 +1,7 @@
-<div id="newws">
-	
+<h1>News list</h1>
+<div *ngFor="let new of news"
+>
+<h3>{{ new.title }}</h3>
+{{new.main}}
 </div>
 
