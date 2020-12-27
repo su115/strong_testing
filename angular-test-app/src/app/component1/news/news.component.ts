@@ -2,8 +2,8 @@ import { Component, OnInit } from '@angular/core';
 
 
 //import work new
-import {NEWS} from "../../NEWS_INTERFACE";
-import {NEWSLIST} from "../../NEWSMOCKS";
+import {NEWS} from "../../shared/NEWS_INTERFACE";
+import {NEWSLIST} from "../../shared/NEWSMOCKS";
 
 @Component({
   selector: 'app-news',

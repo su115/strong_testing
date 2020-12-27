@@ -2,8 +2,8 @@ import { Component, OnInit } from '@angular/core';
 
 
 //make stronger
-import {NAV} from "../../NAV_INTERFACE";
-import {NAVLIST} from "../../NAVMOCKS";
+import {NAV} from "../../shared/NAV_INTERFACE";
+import {NAVLIST} from "../../shared/NAVMOCKS";
 //
 @Component({
   selector: 'app-menu',

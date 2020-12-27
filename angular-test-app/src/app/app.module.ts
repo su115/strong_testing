@@ -12,10 +12,8 @@ import { FooterComponent } from './component1/footer/footer.component';
 import { MainPageComponent } from './component1/main-page/main-page.component';
 import { SkeletonComponent } from './component2/skeleton/skeleton.component';
 import { SkeletonAComponent } from './component3/skeleton-a/skeleton-a.component';
-import { SkeletonBComponent } from './component4/skeleton-b/skeleton-b.component';
-import { CalHeaderComponent } from './component4/cal-header/cal-header.component';
-import { CalendarComponent } from './component4/calendar/calendar.component';
-import { NewsLineComponent } from './component4/news-line/news-line.component';
+
+import { MomentPipe } from './moment.pipe';
 
 @NgModule({
   declarations: [
@@ -30,10 +28,8 @@ import { NewsLineComponent } from './component4/news-line/news-line.component';
     MainPageComponent,
     SkeletonComponent,
     SkeletonAComponent,
-    SkeletonBComponent,
-    CalHeaderComponent,
-    CalendarComponent,
-    NewsLineComponent
+
+    MomentPipe
   ],
   imports: [
     BrowserModule,
