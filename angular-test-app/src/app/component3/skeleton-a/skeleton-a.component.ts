@@ -7,16 +7,12 @@ import {NEWS} from '../../shared/NEWS_INTERFACE'
   styleUrls: ['./skeleton-a.component.css']
 })
 export class SkeletonAComponent implements OnInit {
-
+  tipeher : NEWS;
   constructor(public selectService:SelectNewService) {
-     this.selectService.propety.subscribe(sNew=>this.sNew=sNew)
-   console.log("get:"+this.sNew.title)
+    this.selectService.propety.subscribe(tipeher=>this.tipeher=tipeher)
+   console.log("get:"+this.tipeher.title)
   }
-  sNew:NEWS
   
-  ngOnInit() {
-  // this.selectService.propety.subscribe(idd=>this.idd=idd)
-   //console.log("get:"+this.idd)
-  }
+  ngOnInit() {}
 
 }
