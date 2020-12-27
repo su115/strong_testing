@@ -12,8 +12,8 @@ import { FooterComponent } from './component1/footer/footer.component';
 import { MainPageComponent } from './component1/main-page/main-page.component';
 import { SkeletonComponent } from './component2/skeleton/skeleton.component';
 import { SkeletonAComponent } from './component3/skeleton-a/skeleton-a.component';
+import { SelectNewService } from './select-new.service';
 
-import { MomentPipe } from './moment.pipe';
 
 @NgModule({
   declarations: [
@@ -24,18 +24,18 @@ import { MomentPipe } from './moment.pipe';
     NewsComponent,
     TematicsComponent,
     FooterComponent,
-    //BackgroundNewsComponent,
+    
     MainPageComponent,
     SkeletonComponent,
     SkeletonAComponent,
 
-    MomentPipe
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [SelectNewService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

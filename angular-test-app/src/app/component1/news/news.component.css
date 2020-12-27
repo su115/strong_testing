@@ -1,10 +1,13 @@
 h1 {
   margin-left: 30px;
 }
-div {
+.box {
   margin-left: 30px;
   margin-top: 10px;
   width: 95%;
-  //height: 600px;
-  background: green;
+  background-color: green;
+};
+.box:seleted
+{
+  background-color: red;
 }
