@@ -37,6 +37,7 @@ export class NewsComponent implements OnInit {
     this.selectNew.SetSelectNew(news)
     this.selectNew.propety.subscribe(news=>this.Snew=news)
     console.log("NewsComponent:OnSelect:"+news.title)
+    
   }
 
 

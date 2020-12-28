@@ -1,21 +1,24 @@
 .menu{
-  display: inline-block;
-  
-	margin-top: 10px; 
+  display: flex;
+  justify-content: space-between;
 	margin-left: 30px;
-	width: 95%;
-	height: 40px; 
-  text-align: center;
+	margin-right: 30px;
   opacity: 0.7;
 	background-color: #4444;   
 }
 p{
   display: inline;
-  font-size: 30px;
+  font-size: 1.4rem;
   word-spacing: 60px;
   text-align: center;
+  
+}
+p:first-child{
+  margin-left:35px ;
+}
+p:last-child{
+  margin-right: 40px;
 }
 p:hover{
   color: #800000;
-  font-size: 31px;
 }

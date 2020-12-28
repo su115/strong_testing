@@ -1,11 +1,8 @@
-<h1>News list</h1>
-<div *ngFor="let n of news"
-
-(click)="OnSelect(n)"
-class="box"
->
-<a routerLink="/main3" (click)="OnSelect(n)">{{ n.title }}</a>
-{{n.minidesc}}
-
+<h1>Cписок новин</h1>
+<div *ngFor="let n of news" (click)="OnSelect(n)" class="box">
+	<p>{{ n.title }}</p>
+	<div id="minidescBlock">
+		{{n.minidesc}}
+	</div>
+  <h6><a routerLink="/main3" (click)="OnSelect(n)" class="readMore">Читати далі...</a></h6>
 </div>
-
