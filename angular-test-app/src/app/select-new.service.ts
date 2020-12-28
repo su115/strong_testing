@@ -1,6 +1,7 @@
 import { Injectable } from "@angular/core";
 import { NEWS } from "./shared/NEWS_INTERFACE";
 import { NEWSLIST } from "./shared/NEWSMOCKS";
+import {PARSED} from './shared/data'
 import { BehaviorSubject } from "rxjs";
 @Injectable({ providedIn: "root" })
 export class SelectNewService {
@@ -14,7 +15,7 @@ export class SelectNewService {
   }
 
   getNews(): NEWS[] {
-    this.listN = NEWSLIST;
+    this.listN = PARSED;
     return this.listN;
   }
 

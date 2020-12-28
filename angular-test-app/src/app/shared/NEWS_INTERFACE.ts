@@ -4,6 +4,7 @@ export interface NEWS{
   title:string;//title
   minidesc:string;//mini description to catch attention
   main:string[];//main text of new
-  mimg:string;//photo
-  date:Date;
+  photo:string;//photo
+  date:string;
+  //'Date':string
 }
