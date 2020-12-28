@@ -1,25 +1,38 @@
-#head{
+.head{
+  display: inline-block;
 	margin-left: 30px;
 	height: 100px;
 	width: 95%;
-	background-color: red;
+	background-color: #4444;
+  
+  opacity: 0.7;
 }
 p{
 	font-weight: bold;
 	position: relative;
-	top: 15px;
+  bottom: 17px;
+	font-family: cursive;
 	left: 40px;
-	font-size: 20px;
+	font-size: 40px;
+
 }
 #searchinp{
 	position: relative;
-	left: 50%;
-	bottom: 40px;
+	left: 63%;
+	bottom: 105px;
+  height: 40%;
+  background-color: #4545;
+  font-family: cursive;
 }
 #buttoninp{
 	position: relative;
-	left: 52%;
-	height: 30px;
+	left: 64%;
+	height: 40%;
 	width: 150px;
-	bottom: 40px;
+	bottom: 103px;
+  color: rgb(51, 51, 51);
+  text-align: left;
+  font-size: 20px;
+  font-family: cursive;
+  
 }

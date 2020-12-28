@@ -1,7 +1,21 @@
-#menu{
+.menu{
+  display: inline-block;
+  
 	margin-top: 10px; 
 	margin-left: 30px;
 	width: 95%;
-	//height: 30px; 
-	background-color: blue;   
+	height: 40px; 
+  text-align: center;
+  opacity: 0.7;
+	background-color: #4444;   
+}
+p{
+  display: inline;
+  font-size: 30px;
+  word-spacing: 60px;
+  text-align: center;
+}
+p:hover{
+  color: #800000;
+  font-size: 31px;
 }
