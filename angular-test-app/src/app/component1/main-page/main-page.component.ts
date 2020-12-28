@@ -9,7 +9,7 @@ import {NewsComponent}from "../news/news.component";
 import {NewsDayComponent} from "../news-day/news-day.component";
 import {TematicsComponent} from "../tematics/tematics.component";
 //COMPONENTS END
-import {SkeletonAComponent} from "../../component3/skeleton-a.component"
+import {SkeletonAComponent} from "../../component3/skeleton-a/skeleton-a.component"
 @Component({
   selector: 'app-main-page',
   templateUrl: './main-page.component.html',

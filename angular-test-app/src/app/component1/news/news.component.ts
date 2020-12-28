@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import {SearchService} from '../../search.service';
 
 //import work new
 import {NEWS} from "../../shared/NEWS_INTERFACE";
@@ -11,12 +11,22 @@ import {SelectNewService} from "../../select-new.service";
   styleUrls: ['./news.component.css']
 })
 export class NewsComponent implements OnInit {
-  news:NEWS[];
-  Snew:NEWS;
-  constructor(public selectNew:SelectNewService) { }
+  news:NEWS[]=[];
+  Snew?:NEWS;
+
+  isSerch:boolean=false;
+  constructor(public selectNew:SelectNewService,public searchService:SearchService) { }
   getNewsList(){
     this.news = this.selectNew.getNews();
   }
+
+  searchByWord()
+  {
+    this.news = this.searchService.searchNew('')
+  }
+
+
+
   ngOnInit(): void {
     this.getNewsList();
   }

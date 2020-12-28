@@ -13,6 +13,8 @@ import { MainPageComponent } from './component1/main-page/main-page.component';
 import { SkeletonComponent } from './component2/skeleton/skeleton.component';
 import { SkeletonAComponent } from './component3/skeleton-a/skeleton-a.component';
 import { SelectNewService } from './select-new.service';
+import { SearchService } from './search.service';
+//import { InputComponent } from './component1/input/input.component';
 
 
 @NgModule({
@@ -28,6 +30,7 @@ import { SelectNewService } from './select-new.service';
     MainPageComponent,
     SkeletonComponent,
     SkeletonAComponent,
+  //  InputComponent,
 
     
   ],
@@ -35,7 +38,7 @@ import { SelectNewService } from './select-new.service';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [SelectNewService],
+  providers: [SelectNewService, SearchService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -5,7 +5,7 @@ import {PARSED} from './shared/data'
 import { BehaviorSubject } from "rxjs";
 @Injectable({ providedIn: "root" })
 export class SelectNewService {
-  listN: NEWS[];
+  listN?: NEWS[];
   private selectedNew = new BehaviorSubject(NEWSLIST[0]);
   propety = this.selectedNew.asObservable()
   SetSelectNew(value: NEWS) {
@@ -13,7 +13,7 @@ export class SelectNewService {
     
     console.log(value.title)
   }
-
+  //setNews(list:NEWS[]){}
   getNews(): NEWS[] {
     this.listN = PARSED;
     return this.listN;

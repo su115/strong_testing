@@ -1,5 +1,5 @@
 <div *ngIf="tipeher">
-	<div> <img src={{tipeher.photo}}>
+	<div> <img *ngIf="tipeher.photo!=='#'" src={{tipeher.photo}}>
 		<h1>{{tipeher.title}}</h1>
 		<h2>{{tipeher.minidesc}}</h2>
 		<h3>{{tipeher.date}}</h3>

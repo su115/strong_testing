@@ -7,7 +7,7 @@ export const NEWSLIST: NEWS[] = [
     minidesc: "Синоптики попереджають про сильний вітер та ожеледиці на дорогах.",
     'photo': "https://media.slovoidilo.ua/media/publications/13/124991/124991-1_large.jpg",
     main: ["В Україні в понеділок, 28 грудня, погіршаться погодні умови. Синоптики попереджають про сильний вітер та ожеледиці на дорогах. Про це повідомили в прес-службі Державної служби з надзвичайних ситуацій. Так, завтра в південних, центральних, західних і північних областях очікуються пориви вітру 15-20 м / с, в Карпатах 25-30 м / с, на дорогах ожеледиця."," Оголошено перший рівень небезпеки. У Київській області 28 грудня вранці та вдень пориви вітру 15-20 м / с, ожеледь, на дорогах ожеледиця (перший рівень небезпеки).Погодні умови можуть призвести до порушення руху транспорту на окремих ділянках доріг. Раніше синоптики розповіли про погоду напередодні Нового року."],    
-    date:new Date(2020, 12, 25,12,43,23),
+    date:"new Date(2020, 12, 25,12,43,23),"
   },
   {
     id: 2,
@@ -15,86 +15,7 @@ export const NEWSLIST: NEWS[] = [
     minidesc: "З 30 грудня у Львівській області стартує роботи системи автоматичної фото- і відеофіксації порушень правил дорожнього руху.",
     photo: "https://media.slovoidilo.ua/media/publications/13/124992/facebook-com-artem-shevchenko_large.jpg",
     main:[ "Три камери автофіксації зароблять на автомобільній дорозі М-06 (Київ-Чоп). Про це повідомили в пресслужбі патрульної поліції України. Камери будуть розміщені: на 490 км + 400 автодороги, поблизу міста Буськ; на 555 км + 662 автодороги поблизу села Солонка; на 555 км + 730 автодороги поблизу села Солонка. «Ці місця були обрані через велику кількість виявлених на них порушень швидкісного режиму, які призводили до аварійних ситуацій та ДТП», - повідомили у поліції. Правоохоронці зазначили, що після запуску системи автофіксації на дорогах в Києві та Київській області кількість порушень скоротилася в п'ять разів. Також в три рази зменшилася кількість дорожньо-транспортних пригод на ділянках, де системи були встановлені."],
-    date:new Date(2020, 12, 23,11,24)
+    date:"new Date(2020, 12, 23,11,24)"
   },
-  {
-    id: 3,
-    title: "title3",
-    minidesc: "minidesc3",
-    photo: "URL TO IMG3",
-    main: ["main text of new3"],
-    date:new Date(2011, 1, 28,12,43),
-  },
-  {
-    id: 4,
-    title: "title4",
-    minidesc: "minidesc4",
-    photo: "URL TO IMG4",
-    main: ["main text of new4"],
-    date:new Date(2011, 1, 28,12,43),
-  },
-  {
-    id: 5,
-    title: "title5",
-    minidesc: "minidesc5",
-    photo: "URL TO IMG5",
-    main:[ "main text of new5"],
-    date:new Date(2011, 1, 28,12,43),
-  },
-  {
-    id: 6,
-    title: "title6",
-    minidesc: "minidesc6",
-    photo: "URL TO IMG6",
-    main: ["main text of new6"],
-     date:new Date(2011, 1, 28,12,43),
-  },
-  {
-    id: 7,
-    title: "title7",
-    minidesc: "minidesc7",
-    photo: "URL TO IMG7",
-    main:[ "main text of new7",],
-     date:new Date(2011, 1, 28,12,43),
-  },
-  {
-    id: 8,
-    title: "title8",
-    minidesc: "minidesc8",
-    photo: "URL TO IMG8",
-    main: ["main text of new8"],
-     date:new Date(2011, 1, 28,12,43),
-  },
-  {
-    id: 9,
-    title: "title9",
-    minidesc: "minidesc9",
-    photo: "URL TO IMG9",
-    main: ["main text of new9"],
-     date:new Date(2011, 1, 28,12,43),
-  },
-  {
-    id: 10,
-    title: "title10",
-    minidesc: "minidesc10",
-    photo: "URL TO IMG10",
-    main: ["main text of new10"],
-     date:new Date(2011, 1, 28,12,43),
-  },
-  {
-    id: 11,
-    title: "title11",
-    minidesc: "minidesc11",
-    photo: "URL TO IMG11",
-    main: ["main text of new11"],
-     date:new Date(2011, 1, 28,12,43),
-  },
-  {
-    id: 12,
-    title: "title12",
-    minidesc: "minidesc12",
-    photo: "URL TO IMG12",
-    main: ["main text of new12"],
-     date:new Date(2011, 1, 28,12,43),
-  }
+  
 ];
