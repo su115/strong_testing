@@ -8,7 +8,7 @@
 </div>-->
 <!-- Must be -->
 <div class="menu">
-  <p *ngFor="let nav of panel">
-    {{ nav.name }}
-  </p>
+  <a *ngFor="let nav of panel" routerLink={{nav.url}}>
+   <p> {{ nav.name }}</p>
+  </a>
 </div>

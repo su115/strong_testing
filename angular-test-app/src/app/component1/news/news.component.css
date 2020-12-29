@@ -1,6 +1,7 @@
 h1 {
   margin-left: 10%;
   font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  opacity: .7;
 }
 .box {
   margin-left: auto;

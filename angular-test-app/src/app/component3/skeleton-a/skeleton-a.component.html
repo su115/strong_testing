@@ -1,15 +1,27 @@
+<app-header></app-header>
+<app-menu></app-menu>
+
 <div *ngIf="tipeher">
-	<div> <img *ngIf="tipeher.photo!=='#'" src={{tipeher.photo}}>
-		<h1>{{tipeher.title}}</h1>
-		<h2>{{tipeher.minidesc}}</h2>
-		<h3>{{tipeher.date}}</h3>
-		<div *ngFor="let i of tipeher.main">
-			<h4>{{i}}</h4>
+  <p class="title">{{tipeher.title}}</p>
+	<div class="container">
+		<img #myImage [hidden]="myImage.isBugged" (error)="myImage.isBugged = true"src={{tipeher.photo}}>
+		<div class="RightBlock">
+    
+    <p class="minidesc">{{tipeher.minidesc}}</p>
+    <p class="date">{{tipeher.date}}</p>
 		</div>
 	</div>
+    <div class="containerInner">
+		<div *ngFor="let i of tipeher.main" class="postText">
+			{{i}}
+		</div>
+    <p class="date">{{tipeher.date}}</p>
+    </div>
+	
+
 	<app-footer></app-footer>
 
 </div>
 <div *ngIf="!tipeher">
-  You cant view New! Nothing is! Please chouse New!
+	You cant view New! Nothing is! Please chouse New!
 </div>
