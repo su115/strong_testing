@@ -1,6 +1,24 @@
+<<<<<<< HEAD
 <div>  <img src={{tipeher.mimg}}>
 <h1>{{tipeher.title}}</h1>
 <h2>{{tipeher.minidesc}}</h2>
 <h3>{{tipeher.date}}</h3>
 <div *ngFor = "let i of tipe"> <h4>{{i}}</h4> </div></div>
   <app-footer></app-footer>
+=======
+<div *ngIf="tipeher">
+	<div> <img src={{tipeher.mimg}}>
+		<h1>{{tipeher.title}}</h1>
+		<h2>{{tipeher.minidesc}}</h2>
+		<h3>{{tipeher.date}}</h3>
+		<div *ngFor="let i of tipeher.main">
+			<h4>{{i}}</h4>
+		</div>
+	</div>
+	<app-footer></app-footer>
+
+</div>
+<div *ngIf="!tipeher">
+  You cant view New! Nothing is! Please chouse New!
+</div>
+>>>>>>> upstream/main

@@ -22,7 +22,7 @@ export const NEWSLIST: NEWS[] = [
     title: "title3",
     minidesc: "minidesc3",
     mimg: "URL TO IMG3",
-    main: "main text of new3",
+    main: ["main text of new3"],
     date:new Date(2011, 1, 28,12,43),
   },
   {
@@ -30,7 +30,7 @@ export const NEWSLIST: NEWS[] = [
     title: "title4",
     minidesc: "minidesc4",
     mimg: "URL TO IMG4",
-    main: "main text of new4",
+    main: ["main text of new4"],
     date:new Date(2011, 1, 28,12,43),
   },
   {
@@ -38,7 +38,7 @@ export const NEWSLIST: NEWS[] = [
     title: "title5",
     minidesc: "minidesc5",
     mimg: "URL TO IMG5",
-    main: "main text of new5",
+    main:[ "main text of new5"],
     date:new Date(2011, 1, 28,12,43),
   },
   {
@@ -46,7 +46,7 @@ export const NEWSLIST: NEWS[] = [
     title: "title6",
     minidesc: "minidesc6",
     mimg: "URL TO IMG6",
-    main: "main text of new6",
+    main: ["main text of new6"],
      date:new Date(2011, 1, 28,12,43),
   },
   {
@@ -62,7 +62,7 @@ export const NEWSLIST: NEWS[] = [
     title: "title8",
     minidesc: "minidesc8",
     mimg: "URL TO IMG8",
-    main: "main text of new8",
+    main: ["main text of new8"],
      date:new Date(2011, 1, 28,12,43),
   },
   {
@@ -70,7 +70,7 @@ export const NEWSLIST: NEWS[] = [
     title: "title9",
     minidesc: "minidesc9",
     mimg: "URL TO IMG9",
-    main: "main text of new9",
+    main: ["main text of new9"],
      date:new Date(2011, 1, 28,12,43),
   },
   {
@@ -78,7 +78,7 @@ export const NEWSLIST: NEWS[] = [
     title: "title10",
     minidesc: "minidesc10",
     mimg: "URL TO IMG10",
-    main: "main text of new10",
+    main: ["main text of new10"],
      date:new Date(2011, 1, 28,12,43),
   },
   {
@@ -86,7 +86,7 @@ export const NEWSLIST: NEWS[] = [
     title: "title11",
     minidesc: "minidesc11",
     mimg: "URL TO IMG11",
-    main: "main text of new11",
+    main: ["main text of new11"],
      date:new Date(2011, 1, 28,12,43),
   },
   {
@@ -94,7 +94,7 @@ export const NEWSLIST: NEWS[] = [
     title: "title12",
     minidesc: "minidesc12",
     mimg: "URL TO IMG12",
-    main: "main text of new12",
+    main: ["main text of new12"],
      date:new Date(2011, 1, 28,12,43),
   }
 ];

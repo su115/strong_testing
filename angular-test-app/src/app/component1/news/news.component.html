@@ -1,8 +1,17 @@
 <h1>News list</h1>
-<div *ngFor="let new of news"
+<div *ngFor="let n of news"
+
+(click)="OnSelect(n)"
+class="box"
 >
+<<<<<<< HEAD
 <h3>{{ new.title }}</h3>
 {{new.main}}
 <img src={{new.mimg}}>
+=======
+<a routerLink="/main3" (click)="OnSelect(n)">{{ n.title }}</a>
+{{n.minidesc}}
+
+>>>>>>> upstream/main
 </div>
 
