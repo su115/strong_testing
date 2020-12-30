@@ -1,10 +1,41 @@
 h1 {
-  margin-left: 30px;
+  margin-left: 10%;
+  font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  opacity: .7;
 }
-div {
-  margin-left: 30px;
+.box {
+  margin-left: auto;
   margin-top: 10px;
-  width: 95%;
-  //height: 600px;
-  background: green;
+  margin-right: auto;
+  width: 80%;
+  background-color: #ffd0c2;
+  padding: 20px;
+  padding-top: 0px;
+  
+}
+.readMore {
+  text-decoration: none;
+  color: #69809f;
+  justify-content: right;
+}
+p {
+  font-family: Helvetica, sans-serif;
+  font-size: larger;
+  padding-left: 2rem;
+  padding-top: 0.5rem;
+  
+}
+a {
+  color: #69809f;
+  text-align: right;
+  text-decoration: none;
+}
+#minidescBlock{
+  font-family:  'Times New Roman', Times, serif;
+  
+}
+h6{
+  font-size:16px;
+  text-align: right;
+  margin: 0;
 }

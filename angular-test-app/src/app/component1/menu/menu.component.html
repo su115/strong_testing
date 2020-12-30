@@ -7,8 +7,8 @@
 <button style="width: 16.66%">Архів</button>
 </div>-->
 <!-- Must be -->
-<div id="menu">
-  <p *ngFor="let nav of panel">
-    {{ nav.name }}
-  </p>
+<div class="menu">
+  <a *ngFor="let nav of panel" routerLink={{nav.url}}>
+   <p> {{ nav.name }}</p>
+  </a>
 </div>

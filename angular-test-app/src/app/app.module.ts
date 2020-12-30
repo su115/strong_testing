@@ -12,8 +12,10 @@ import { FooterComponent } from './component1/footer/footer.component';
 import { MainPageComponent } from './component1/main-page/main-page.component';
 import { AddPostComponent } from './component2/Addpost/add-post.component';
 import { SkeletonAComponent } from './component3/skeleton-a/skeleton-a.component';
+import { SelectNewService } from './select-new.service';
+import { SearchService } from './search.service';
+//import { InputComponent } from './component1/input/input.component';
 
-import { MomentPipe } from './moment.pipe';
 
 @NgModule({
   declarations: [
@@ -24,18 +26,19 @@ import { MomentPipe } from './moment.pipe';
     NewsComponent,
     TematicsComponent,
     FooterComponent,
-    //BackgroundNewsComponent,
+    
     MainPageComponent,
     AddPostComponent,
     SkeletonAComponent,
+  //  InputComponent,
 
-    MomentPipe
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [SelectNewService, SearchService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

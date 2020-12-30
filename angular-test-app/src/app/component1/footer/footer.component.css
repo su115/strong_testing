@@ -1,13 +1,12 @@
-#fott{
-	margin-left: 30px;
-	margin-top: -16px;
-	width: 95%;
-	height: 70px;
-	background: grey;
-}
-#lefte{
-	text-align: left;
-}
-#righte{
-	text-align: right;
+.container{
+  
+display: flex;
+justify-content: space-between;
+margin-left: 2.5%;
+margin-right: 2.5%;
+margin-top: 4%;
+background-color: #002423;
+color:rgb(201, 223, 243);
+padding:3%;
+font-size: 1rem;
 }
