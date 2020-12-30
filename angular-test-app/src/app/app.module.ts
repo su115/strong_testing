@@ -10,7 +10,7 @@ import { NewsComponent } from './component1/news/news.component';
 import { TematicsComponent } from './component1/tematics/tematics.component';
 import { FooterComponent } from './component1/footer/footer.component';
 import { MainPageComponent } from './component1/main-page/main-page.component';
-import { SkeletonComponent } from './component2/skeleton/skeleton.component';
+import { AddPostComponent } from './component2/Addpost/add-post.component';
 import { SkeletonAComponent } from './component3/skeleton-a/skeleton-a.component';
 import { SelectNewService } from './select-new.service';
 import { SearchService } from './search.service';
@@ -28,7 +28,7 @@ import { SearchService } from './search.service';
     FooterComponent,
     
     MainPageComponent,
-    SkeletonComponent,
+    AddPostComponent,
     SkeletonAComponent,
   //  InputComponent,
 
