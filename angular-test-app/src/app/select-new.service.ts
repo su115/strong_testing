@@ -19,6 +19,10 @@ export class SelectNewService {
     return this.listN;
   }
 
+  AddPost(value: NEWS){
+    this.listN.push(value)
+  }
+
   /*
   SearchNew(value: string): NEWS[] {
     let FoundN: NEWS[] = [];
