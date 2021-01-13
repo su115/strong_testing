@@ -1,6 +1,10 @@
 import { Component } from '@angular/core';
+
 import { NEWS } from '../../shared/NEWS_INTERFACE'
 import {SelectNewService} from '../../select-new.service'
+
+//import { Post } from '../models/post.model';
+
  
 @Component({
   selector: 'app-add-post',

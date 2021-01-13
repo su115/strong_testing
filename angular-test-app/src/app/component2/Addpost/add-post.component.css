@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+}
+.form-horizontal {
+  padding: 20px;
+}
+.form-group {
+  text-align: center;
+  margin-top: 10px;
+}
+input[type=text] {
+  padding: 10px;
+  margin-left: 20px;
+}
+input[type=photo] {
+  padding: 10px;
+  margin-left: 20px;
+}
+input[type=date] {
+  margin-left: 20px;
+}

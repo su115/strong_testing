@@ -1,65 +1,56 @@
-<!-- <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                <button type="button" #closeBtn class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
+<div class="row custom-row">
+  <div class= "col-sm-5 custom-container jumbotron">
+       
+    <form class="form-horizontal">
+        <fieldset>
+        <legend>Add news</legend>
+            <div class="form-group">
+              <label for="id">id</label>
+              <input type="text"
+                id="id"
+                placeholder="id">
             </div>
-            <div class="modal-body">
- 
- 
-                <form>
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">Title</label>
-                        <input name="title" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter title">
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleInputPassword1">Description</label>
-                        <textarea name="description" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                        </textarea>
-                    </div>
- 
-                    
- 
-                    <button type="button" class="btn btn-primary">Add</button>
-                </form>
- 
- 
+
+            <div class="form-group">
+              <label for="title">title</label>
+              <input type="text"
+                id="title"
+                placeholder="title">
             </div>
-        </div>
-    </div>
-</div> -->
-<app-menu></app-menu>
-<div class="form-group">
-  <label for="exampleInputPassword1">Id</label>
-  <textarea name="description" class="form-control" id="id" placeholder="ID">
-  </textarea>
-</div>
-<div class="form-group">
-  <label for="exampleInputPassword1">title</label>
-  <textarea name="description" class="form-control" id="title" placeholder="Password">
-  </textarea>
-</div>
-<div class="form-group">
-  <label for="exampleInputPassword1">minidesc</label>
-  <textarea name="description" class="form-control" id="minidesc" placeholder="Password">
-  </textarea>
-</div>
-<div class="form-group">
-  <label for="exampleInputPassword1">main</label>
-  <textarea name="description" class="form-control" id="main" placeholder="Password">
-  </textarea>
-</div>
-<div class="form-group">
-  <label for="exampleInputPassword1">photo</label>
-  <textarea name="description" class="form-control" id="photo" placeholder="Password">
-  </textarea>
-</div>
-<div class="form-group">
-  <label for="exampleInputPassword1">date</label>
-  <textarea name="description" class="form-control" id="date" placeholder="Password">
-  </textarea>
-</div>
-<button type="button" class="btn" (click)="Add_Active()">Add</button>
+     
+            <div class="form-group">
+              <label for="minidesc" >minidesc</label>
+              <input type="text"
+                id="minidesc"
+                placeholder="minidesc">
+            </div>
+
+            <div class="form-group">
+              <label for="main" >main</label>
+              <input type="text"
+                id="main"
+                placeholder="main">
+            </div>
+
+            <div class="form-group">
+              <label for="photo" >photo</label>
+              <input type="photo"
+                id="photo"
+                placeholder="photo">
+            </div>
+
+            <div class="form-group">
+              <label for="date" >date</label>
+              <input type="date"
+                id="date"
+                placeholder="date">
+            </div>
+            
+           <!--- Buttons Block --->
+            <div class="form-group">
+                <button type="reset" class="btn btn-default">Cancel</button>
+                <button type="submit" class="btn btn-primary" click= "Add_Active">Submit</button>
+            </div>
+        </fieldset>
+    </form>
+  </div>

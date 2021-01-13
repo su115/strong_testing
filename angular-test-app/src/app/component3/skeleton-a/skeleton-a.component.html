@@ -4,7 +4,13 @@
 <div *ngIf="tipeher">
   <p class="title">{{tipeher.title}}</p>
 	<div class="container">
-		<img #myImage [hidden]="myImage.isBugged" (error)="myImage.isBugged = true"src={{tipeher.photo}}>
+		<!--<img #myImage 
+		[hidden]="myImage.isBugged" 
+		(error)="myImage.isBugged = true" 
+		src={{tipeher.photo}}	>
+		-->
+		
+		
 		<div class="RightBlock">
     
     <p class="minidesc">{{tipeher.minidesc}}</p>
